@@ -1,5 +1,5 @@
 import AreaCalculator from "./components/AreaCalculator";
-import BMICalculator from "./components/BmiCalculator";
+import BMICalculator from "./components/BMICalculator";
 import Header from "./components/Header";
 
 function App() {
