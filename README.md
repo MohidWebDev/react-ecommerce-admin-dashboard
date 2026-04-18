@@ -1,16 +1,10 @@
-# React + Vite
+#react-utility-calc-hub
+Modular Component Architecture: Effectively organizes the application into decoupled components (Header, AreaCalculator, and BMICalculator), ensuring high maintainability and code readability.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive BMI Engine: Implements a health-tracking utility that calculates Body Mass Index based on weight and height inputs, utilizing conditional logic to ensure valid, non-zero entries.
 
-Currently, two official plugins are available:
+Geometric Logic Implementation: Features a rectangle area calculator that dynamically processes multiple state variables (length and width) to compute and display results instantly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Robust Form Management: Utilizes the onSubmit event with e.preventDefault() to manage the application lifecycle, preventing unnecessary page reloads and ensuring a smooth user experience.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic State Synchronization: Employs the onChange event to capture and cast user inputs into numerical data types, maintaining a synchronized "single source of truth" for all calculations.
