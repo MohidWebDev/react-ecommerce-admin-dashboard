@@ -1,5 +1,6 @@
 import AreaCalculator from "./components/AreaCalculator";
 import BMICalculator from "./components/BMICalculator";
+import ECommerce from "./components/ECommerce";
 import Header from "./components/Header";
 
 function App() {
@@ -9,11 +10,7 @@ function App() {
 
       <hr />
 
-      <AreaCalculator />
-
-      <hr />
-
-      <BMICalculator />
+      <ECommerce />
     </div>
   );
 }
