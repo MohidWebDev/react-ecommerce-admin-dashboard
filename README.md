@@ -1,10 +1,12 @@
-#react-utility-calc-hub
-Modular Component Architecture: Effectively organizes the application into decoupled components (Header, AreaCalculator, and BMICalculator), ensuring high maintainability and code readability.
+# react-ecommerce-admin-dashboard
+Dynamic Array Management: Implements advanced useState logic to manage an array of objects, allowing for the real-time addition of new products without losing existing data.
 
-Interactive BMI Engine: Implements a health-tracking utility that calculates Body Mass Index based on weight and height inputs, utilizing conditional logic to ensure valid, non-zero entries.
+Immutable State Updates: Utilizes the Spread Operator ([...products, newProduct]) to maintain state immutability, a critical best practice in React development.
 
-Geometric Logic Implementation: Features a rectangle area calculator that dynamically processes multiple state variables (length and width) to compute and display results instantly.
+Data Persistence Simulation: Uses Date.now() as a unique identifier (ID) for each product, ensuring precise targeting for deletions and rendering.
 
-Robust Form Management: Utilizes the onSubmit event with e.preventDefault() to manage the application lifecycle, preventing unnecessary page reloads and ensuring a smooth user experience.
+Functional Data Filtering: Showcases the .filter() method to handle product removal, demonstrating an understanding of how to manipulate data structures efficiently.
 
-Dynamic State Synchronization: Employs the onChange event to capture and cast user inputs into numerical data types, maintaining a synchronized "single source of truth" for all calculations.
+Advanced JSX Styling: Incorporates inline CSS and conditional rendering logic to provide immediate visual feedback and a professional dashboard layout.
+
+Controlled Components: Features fully controlled input fields where the React state is the "single source of truth" for the form's value.
